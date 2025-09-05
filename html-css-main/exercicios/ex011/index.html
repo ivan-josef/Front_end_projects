@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinamicas</title>
+</head>
+<body>
+    <h1>Imagens Dinamicas</h1>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+
+    <h1>reproduzindo audio </h1>
+    <audio preload="none" controls>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.mp3" type="audio/ogg">
+        <source src="midia/guanacast-33.mp3" type="audio/wav">
+        <p>infelizmente seu navegador nao consegue reproduzir o audio. <a href="midia/guanacast-33.mp3">clique aqui para baixa-lo</a></p>
+    </audio>
+    <h1>Colocando videos</h1>
+    <video width="500" controls>
+        <source src="midia/meu-video.mp4" type="video/mp4">
+    </video>
+    <h1>inserindo video do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/fY65W5yB5qc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+</body>
+</html>

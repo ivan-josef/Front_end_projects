@@ -1,0 +1,174 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+
+}
+
+:root {
+
+    --Light-red: hsl(0, 100%, 67%);
+    --Orangey-yellow: hsl(39, 100%, 56%);
+    --Green-teal: hsl(166, 100%, 37%);
+    --Cobalt-blue: hsl(234, 85%, 45%);
+
+    --font: 'Hanken Grotesk', sans-serif;
+
+}
+
+
+body{
+    font-family: var(--font);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card {
+    width: 614px;
+    height: 426px;
+    display: flex;
+    border-radius: 0px 15px 15px 28px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.075);
+
+}
+
+
+.half{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}   
+
+.half:first-child{
+    background-image: linear-gradient(to bottom,hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    color: white;
+    padding: 32px 14px;
+    border-radius: 28px;
+    text-align: center;
+    
+}
+
+.half:first-child > h3:first-of-type{
+    font-size: 1.2em;
+    color: hsl(241, 100%, 89%);
+}
+
+.circle{
+    width: 166px;
+    height: 166px;
+    background-image: linear-gradient(to bottom,hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    border-radius: 100%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.circle > h3{
+    font-size: 4em;
+}
+
+.circle > p{
+    font-size: 1.1em;
+    color: hsl(241, 100%, 89%);
+}
+
+.half:first-child > h3:last-of-type{
+    font-size: 1.5em;
+    padding-bottom: 20px;
+}
+
+.half:first-child > p:last-of-type{
+    text-align: center;
+    color: hsl(241, 100%, 89%);
+}
+
+.half:last-child > h3{
+    width: 100%;
+    text-align: left;
+}
+
+.list > ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+
+}
+
+.list > ul > li{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    gap: 50px;
+    padding: 0px 10px;
+    
+    
+}
+
+.list > ul > li:nth-child(1){
+    background-color: hsla(0, 100%, 67%, 0.26);
+}
+
+.list > ul > li:nth-child(2){
+    background-color: hsl(39, 100%, 56%, 0.26);
+}
+
+.list > ul > li:nth-child(3){
+    background-color: hsl(166, 100%, 37%, 0.26);
+}
+
+.list > ul > li:nth-child(4){
+    background-color: hsl(234, 85%, 45%, 0.26);
+}
+
+.list li div {
+    display: flex;
+    gap: 8px
+}
+
+.list li:nth-child(1) div span{
+    color: hsl(0, 100%, 67%);
+}
+
+.list li:nth-child(2) div span{
+    color: hsl(39, 100%, 56%);
+}
+
+.list li:nth-child(3) div span{
+    color: hsl(166, 100%, 37%);
+}
+
+.list li:nth-child(4) div span{
+    color: hsl(234, 85%, 45%);
+}
+
+.half:last-child > button{
+    margin-bottom: 20px;
+    padding: 10px 100px;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    border:none;
+    border-radius: 20px;
+    width: 90%;
+
+}
+
+.half:last-child > button:hover{
+    text-decoration: underline;
+}
+
