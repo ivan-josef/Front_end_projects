@@ -52,5 +52,5 @@ Aqui está a lista de desafios que completei até agora:
 
 ## 📫 Contato
 
-* **LinkedIn:** [Ivan J. Oliveira Esposito](www.linkedin.com/in/ivanjoesposito)
+* **LinkedIn:** [Ivan J. Oliveira Esposito](https://www.linkedin.com/in/ivanjoesposito/)
 * **Instagram:** [ivanjosef](https://www.instagram.com/ivanjosef/)
